@@ -1,0 +1,7 @@
+{
+  "name": "browser-calls-rails",
+  "version": "1.0.0",
+  "description": "Make Calls From the Browser",
+  "author": "Sam Sweeney <sam.s.sweeney@gmail.com>",
+  "license": "MIT"
+}
