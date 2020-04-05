@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Browser Calls</title>
+  <title>Caller App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -22,13 +22,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Birchwood Bicycle Polo Co.</a>
+          <a class="navbar-brand" href="/">Caller App</a>
         </div>
 
         <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="<%= dashboard_path %>">Support dashboard</a></li>
-          </ul>
         </div>
       </div>
     </nav>
@@ -37,13 +34,13 @@
 
       <%= yield %>
       <footer>
-        <p>&copy; Your Company <%= Time.now.year %></p>
+        <p>&copy; Caller App <%= Time.now.year %></p>
       </footer>
 
     </div> <!-- /container -->
     <%= javascript_include_tag "//code.jquery.com/jquery-3.3.1.min.js" %>
     <%= javascript_include_tag "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" %>
-    <%= javascript_include_tag "//media.twiliocdn.com/sdk/js/client/releases/1.6.1/twilio.min.js" %>
+    <%= javascript_include_tag "//media.twiliocdn.com/sdk/js/client/releases/1.10.0/twilio.min.js" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>
