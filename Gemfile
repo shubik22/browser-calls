@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.2.2'
 gem 'sqlite3'
-gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -26,4 +25,8 @@ end
 
 group :development do
   gem 'pry-rails'
+end
+
+group :production do
+  gem 'pg'
 end
