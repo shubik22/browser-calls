@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "description": "Make Calls From the Browser",
   "author": "Sam Sweeney <sam.s.sweeney@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@rails/webpacker": "4.2.2",
+    "twilio-client": "^1.10.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  }
 }
