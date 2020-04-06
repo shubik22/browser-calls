@@ -36,11 +36,19 @@
           <div class="well well-sm" id="call-status">
             Connecting to Twilio...
           </div>
-
-          <button class="btn btn-lg btn-primary call-support-button" onclick="callSupport()">
-            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call support
-          </button>
-          <button class="btn btn-lg btn-danger hangup-button" disabled onclick="hangUp()">Hang up</button>
+          <div>
+            <button class="btn btn-lg btn-primary" id="ready-button">
+              Ready
+            </button>
+          </div>
+          <div>
+            <button class="btn btn-lg btn-primary call-support-button">
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Call support
+            </button>
+          </div>
+          <div>
+            <button class="btn btn-lg btn-danger hangup-button" disabled>Hang up</button>
+          </div>
         </div>
       </div>
 

@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'twilio-ruby', '~> 5.17.0'
 gem 'webpacker', '>= 4.0.x'
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :test do
   gem 'byebug'
