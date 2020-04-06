@@ -27,12 +27,16 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navbar">
+          <% if user_signed_in? %>
+            <button class="btn btn-lg">
+              <%= link_to('Logout', destroy_user_session_path) %>
+            </button>
+          <% end %>
         </div>
       </div>
     </nav>
 
     <div class="container">
-
       <%= yield %>
       <footer>
         <p>&copy; Caller App <%= Time.now.year %></p>

@@ -34,7 +34,7 @@ class App {
       this.call('phone-number-here');
     });
 
-    this.hangUpButton.on('click' () => {
+    this.hangUpButton.on('click', () => {
       this.hangUp();
     });
   }
